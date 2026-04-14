@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TPWinFormEquipo12b
 {
-    public partial class Form1 : Form
+    public partial class formPrincipal : Form
     {
-        public Form1()
+        public formPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //MessageBox.Show("Hola, soy yo");
         }
     }
 }
